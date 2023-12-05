@@ -1,5 +1,5 @@
 function Home(){
-    return <h1>hello world remaster</h1>
+    return <h1>I Love you BB!</h1>
 }
 
 export default Home;
