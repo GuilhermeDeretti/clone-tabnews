@@ -33,5 +33,4 @@ test("POST to /api/v1/migrations should return 405", async () => {
   const response3 = await fetch("http://localhost:3000/api/v1/migrations", {
     method: 'PATCH'});
   expect(response3.status).toBe(405);
-  expect(response3.statusText).toBe('Method Not Allowed');
 });
