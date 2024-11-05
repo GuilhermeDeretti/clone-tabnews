@@ -28,10 +28,11 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+const database = {
   query,
   getNewClient,
 };
+export default database;
 
 function getSSLValues() {
   // In case DB provider uses self-signed certificate a ENVIRONMENT variable POSTGRES_CA will exist and use it instead of true or false.
